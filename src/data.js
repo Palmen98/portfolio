@@ -19,7 +19,8 @@ export const projects = [
     description:
         'A social media app were I have used the techniques React.js with TailwindCSS to make the Web GUI and Sanity as backend to work as a database for the created users, pins, comments and saved images.',
     image: PalmMedia,
-    link: 'https://palmmedia.netlify.app/'
+    link: 'https://palmmedia.netlify.app/',
+    github: 'https://github.com/Palmen98/shareMe-Social-media-app'
   },
   {
     title: 'IoT, Kitchen Overwatch system',
