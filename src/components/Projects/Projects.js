@@ -37,7 +37,11 @@ const Projects = () => {
                     </h1>
                     <p className='leading-relaxed'>{project.description}</p>
 
-                    <a href='https://github.com/Palmen98/shareMe-Social-media-app' target='_blank' className='text-indigo-500'>GitHub here</a>
+                    <a className='title-font text-lg font-medium text-white mb-3' target='_blank' className='text-indigo-500'>
+                      {project.link}
+                    </a>
+                    <br/>
+                    <a href={project.github} target='_blank' className='text-indigo-500'>GitHub</a>
                   </div>
                 </div>
               </a>
